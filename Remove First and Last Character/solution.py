@@ -2,6 +2,6 @@ def remove_char(s):
     sList = []
     for i in s:
         sList.append(i)
-    sList.remove(sList[0])
-    sList.remove(sList[-1])
+    sList.pop(0)
+    sList.pop()
     return ''.join(sList)
